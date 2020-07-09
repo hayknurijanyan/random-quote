@@ -19,8 +19,8 @@ html, body {
 }
 
 #section1{
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,12 +33,12 @@ html, body {
 #quote{
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
     color: #464040;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-style: italic;
     
 }
@@ -49,14 +49,14 @@ html, body {
     margin-top: 10px;
     margin-bottom: 10px;
     color: #464543;
-    font-size: 1rem;
+    font-size: 1.3rem;
     
 
 }
 
 #button {
     margin-top: 50px;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     background-color: #00A3BC;
     color: antiquewhite;
     outline: none;
