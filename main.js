@@ -15,8 +15,8 @@ async function randomQuote() {
     const response = await fetch ('https://type.fit/api/quotes')
     let data = await response.json();
      let m =  [...data][getRandomInt(1642)];
-     console.log(m)
-     author.innerHTML = m.author;
+    console.log(m)
+    m.author === null ? author.innerHTML = "Unknown Writer" : author.innerHTML = m.author;
     quote.innerHTML = `"${m.text}"`;
     
 }
